@@ -1,0 +1,6 @@
+id: LEAFNet-linear
+_target_: autrainer.models.LEAFNet
+initialization: linear
+
+transform:
+  type: raw

@@ -1,0 +1,6 @@
+id: LEAFNet-const
+_target_: autrainer.models.LEAFNet
+initialization: constant
+
+transform:
+  type: raw

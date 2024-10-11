@@ -1,0 +1,6 @@
+id: LEAFNet-bark
+_target_: autrainer.models.LEAFNet
+initialization: bark
+
+transform:
+  type: raw
