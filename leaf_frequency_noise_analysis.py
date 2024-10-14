@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib
 
-root_folder = "results/noise/"
+root_folder = "results/noise/training"
 initialisation_name_converter = {"LEAFNet": "Mel-scale", "bark": "Bark-scale", "linear-constant": "Linear", "constant": "Constant"}
 augmentation_type_name_converter = {"bluenoise": "High-passed noise", "pinknoise": "Low-passed noise", "bandpass": "Bandpass filter"}
 

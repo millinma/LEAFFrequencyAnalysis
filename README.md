@@ -19,7 +19,7 @@ pip install autrainer==0.3.0
 
 **Experiment Reproduction**
 
-The deep learning experimental setup is defined in the `conf/config.yaml` and defines the training for four datasets, four initialisation types of the LEAF frontend and three random seeds. To reproduce the experiments, the following commands need to be executed, which include the download of the datasets into the `data/` directory and the training of all necessary models. The outputs of the training including model states is saved into `results/default/`:
+The deep learning experimental setup is defined in the `conf/config.yaml` and defines the training for four datasets, four initialisation types of the LEAF frontend and three random seeds. To reproduce the experiments, the following commands need to be executed, which include the download of the datasets (except for the SER Task [FAU-AIBO](https://www.isca-archive.org/interspeech_2009/schuller09_interspeech.pdf)) into the `data/` directory and the training of all necessary models. The outputs of the training including model states is saved into `results/default/`:
 
 ```
 autrainer fetch
