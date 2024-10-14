@@ -10,8 +10,8 @@ hydra:
   sweeper:
     params:
       +seed: 1
-      +batch_size: 32
+      +batch_size: 2
       +learning_rate: 0.0003
-      dataset: DCASE2020Task1A-wav, DCASE2018Task3-wav, AIBO-wav, SpeechCommands-wav
+      dataset: DCASE2020Task1A-wav #, DCASE2018Task3-wav, AIBO-wav, SpeechCommands-wav
       model: LEAFNet, LEAFNet-bark, LEAFNet-linear, LEAFNet-const
       optimizer: Adam
