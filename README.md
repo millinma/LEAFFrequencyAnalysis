@@ -32,5 +32,5 @@ The reproduction of the graphs used for the analysis of the training is based on
 ```
 python leaf_frequency_analysis.py  # filterbank analysis standard experiments
 python leaf_frequency_noise_analysis.py  # filterbank analysis noise experiments
-leaf_frequency_noise_performance # performance analysis noise experiments
+python leaf_frequency_noise_performance # performance analysis noise experiments
 ```
