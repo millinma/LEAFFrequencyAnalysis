@@ -4,14 +4,14 @@ defaults:
 
 results_dir: results
 experiment_id: default
-iterations: 2
+iterations: 50
 
 hydra:
   sweeper:
     params:
       +seed: 1
-      +batch_size: 2
+      +batch_size: 32
       +learning_rate: 0.0003
-      dataset: DCASE2020Task1A-wav #, DCASE2018Task3-wav, AIBO-wav, SpeechCommands-wav
+      dataset: DCASE2020Task1A-wav, DCASE2018Task3-wav, AIBO-wav, SpeechCommands-wav
       model: LEAFNet, LEAFNet-bark, LEAFNet-linear, LEAFNet-const
       optimizer: Adam
